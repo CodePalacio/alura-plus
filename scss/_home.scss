@@ -1,3 +1,90 @@
 body{
     background-color: black;
+    .main{
+        height: 68rem;
+        background-image: url("../img/Background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        .container{
+            padding-left: 0;
+            .main-left{
+                padding-top: 12.5rem;
+                width: 100%;
+                max-width: 58.8rem;
+                @include flex(center, center, column);
+                h2{
+                    text-align: center;
+                    padding-bottom: 2.2rem;
+                }
+                img{
+                    padding-bottom: 5.4rem;
+                }
+                .btn-primary,
+                .btn-secondary{
+                    width: 51.2rem;
+                }
+                .btn-secondary{
+                    margin-top: 2rem;
+                }
+                p{
+                    font-size: 1.4rem;
+                    line-height: 1.5rem;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+    .assista{
+        margin-top: 9.5rem;
+        .container{
+            @include flex(center,center,row);
+            article{
+                max-width: 58.8rem;
+                margin-left: 7rem;
+            }
+        }
+    }
+    .info{
+        margin-top:15rem;
+        .container{
+            display: flex;
+            .info-left{
+                max-width: 58.8rem;
+                @include flex(start,center,column);
+                .btn-primary{
+                    margin-top: 1.6rem;
+                }
+            }
+            img{
+                padding-left: 7rem;
+            }
+        }
+    }
+    .download{
+        margin-top:22.6rem;
+        .container{
+            display: flex;
+            align-items: center;
+            article{
+                padding-left: 4.4rem;
+                max-width: 58.9rem;
+            }
+        }
+    }
+    .dispositivos{
+        margin-top: 26.4rem;
+        h1{
+            text-align: center;
+        }
+        ul{
+            padding-top: 4rem;
+            @include flex(center,center,row);
+            li{
+                text-align: center;
+                h2{
+                    padding-top: 1.6rem;
+                }
+            }
+        }
+    }
 }
