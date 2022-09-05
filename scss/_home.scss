@@ -4,9 +4,9 @@ body{
         height: 68rem;
         background-image: url("../img/Background.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        
         .container{
-            padding-left: 0;
             .main-left{
                 padding-top: 12.5rem;
                 width: 100%;
@@ -68,6 +68,7 @@ body{
             article{
                 padding-left: 4.4rem;
                 max-width: 58.9rem;
+                width: 100%;
             }
         }
     }

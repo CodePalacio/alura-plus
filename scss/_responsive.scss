@@ -1,0 +1,57 @@
+@media (min-width: 1500px){
+    .main{
+        .container{
+            max-width: 158rem;
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .main{
+        background:none !important;
+        .main-left{
+            margin:0 auto;
+        }
+    }
+    .assista{
+        .container{
+            flex-wrap: wrap;
+            article{
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+
+    }
+    .info{
+        .container{
+            flex-wrap: wrap;
+            justify-content:center;
+
+            .info-left{
+                text-align: center;
+                .btn-primary{
+                    display: flex;
+                    margin: 0 auto;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+    .download{
+        .container{
+            flex-wrap: wrap;
+            justify-content:center;
+            article{
+                margin-top: 1.2rem;
+                text-align: center;
+                padding-left: 0 !important;
+            }
+        }
+    }
+    .dispositivos{
+        ul{
+            flex-direction: column !important;
+        }
+    }
+}
